@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表单</title>
+	</head>
+	<body>
+		<!-- 表单 -->
+		<form method="get" action="#">
+			<!-- 文本框 -->
+			用户名：<input type="text" value="默认值" readonly/><br>
+			<!-- 密码框 -->
+			密码：<input type="password" /><br>
+			
+			<!-- 单选按钮 name属性值必须一致-->
+			男<input type="radio" name="sex" value="男" checked/>
+			女<input type="radio" name="sex" value="女" /><br>
+			
+			<!-- 多选(复选框) -->
+			爱好：<input type="checkbox" name="hobby" value="篮球"/>篮球
+			<input type="checkbox" name="hobboy" value="足球" />足球
+			<input type="checkbox" name="hobby" value="台球" />台球<br>
+			<!-- 下拉菜单(列表) -->
+			月份：<select>
+				<option value="一月">一月</option>
+				<option value="二月">二月</option>
+				<option value="三月">三月</option>
+			</select><br>
+			
+			<!-- 文件域 -->
+			<input type="file" name="img"/><br>
+			
+			<!-- 多行文本域(文本框) -->
+			<textarea>asdasdasdasd</textarea>
+			
+			<!-- 隐藏域 -->
+			<input type="hidden" value="1" />
+			
+			<!-- 普通按钮 -->
+			<button>我是普通按钮</button>
+			<!-- 提交按钮(两种方法) -->
+			<input type="submit" value="提交按钮" disabled/>
+			<button type="submit">提交按钮</button>
+			<!-- 重置按钮(两种方法) -->
+			<input type="reset" value="重置按钮" />
+			<button type="reset">重置按钮</button>
+			<br>
+			<!-- email -->
+			电子邮箱<input type="email" /><br>
+			<!-- url -->
+			网址<input type="url" /><br>
+			<!-- search -->
+			搜索框：<input type="search"/><br>
+			<!-- number -->
+			数字：<input type="number"/><br>
+			<!-- 滑块 -->
+			滑块：<input type="range" /><br>
+			
+			<!-- placeholder -->
+			<input placeholder="请输入姓名"/><br>
+			<!-- required -->
+			<input required/>*必填<br>
+			<label for="username">用户名</label>
+			<input id="username"/>
+			
+		</form>
+	</body>
+</html>
