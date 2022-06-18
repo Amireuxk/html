@@ -1,0 +1,51 @@
+<!DOCTYPE html><!-- Html5声明 -->
+<html lang属性设置中文>
+	<!-- 网页头部 -->
+	<head>
+		<meta charset="utf-8"><!--设置编码 -->
+		<!-- 网页标题 -->
+		<title>My first Web</title>
+	</head>
+	<!-- 主题内容 -->
+	<body>
+		<!-- 标题标签 -->
+		<h1>一级标题</h1>
+		<h2>二级标题</h2>
+		<h3>三级标题</h3>
+		<h4>四级标题</h4>
+		<h5>五级标题</h5>
+		<h6>六级标题</h6>
+		
+		<!-- 段落标签 -->
+		<p>我是段落标签，我会自动换行</p>
+		<P>我是块元素</P>
+		
+		<!-- 换行 -->
+		<p>我后面会换行<br>会另起一行</p>
+		
+		<!-- 水平线 -->
+		<hr>
+		<!-- 加粗 -->
+		<strong>我是加粗</strong>
+		<b>我也是加粗</b>
+		<br>
+		<!-- 斜体 -->
+		<i>我是斜体</i>
+		<em>我也是斜体</em>
+		<br>
+		<!-- 下划线 -->
+		<u>我是下划线</u>
+		<p>Hellow&nbsp;World</p>
+		<p>备案号&copy202110120</p>
+		<img src="c60fef7c5455d9f6af577d34389137ee.jpg" alt="图片不显示时显示的内容"
+		title="鼠标悬停显示" width="100ph" height="100ph/>"
+		<!-- 超链接标签 titarget="_self"默认值 -->
+		<a href="https://www.baidu.com">百度一下</a>
+		<a href="https://jd.com" target="_self">京东</a>
+		<a href="https://www.taobao.com" target="_black">淘宝</a>
+		<a href="market.html">跳转到market页面</a>
+		
+		<!-- 功能性连接 -->
+		<a href="mailto:493521084@qq.com">发送邮件</a>
+	</body>
+</html>
